@@ -68,12 +68,8 @@
   z-index: -1;
 }
 
-.description {
+.content_description {
   margin-top: 100px;
-}
-
-.digits {
-  margin: 100px 0;
 }
 
 .two-columns {
@@ -112,7 +108,8 @@
   font-weight: 600;
 }
 
-.digits {
+.content_digits {
+  margin: 100px 0;
   display: block;
 }
 
@@ -162,7 +159,7 @@
   font-weight: normal;
 }
 
-.feynman {
+.content_feynman {
   padding-top: 100px;
   height: 890px;
   position: relative;
@@ -198,7 +195,7 @@
   text-decoration: none;
 }
 
-.kaufman {
+.content_kaufman {
   background-color: #1f1f1f;
   color: white;
   padding: 90px 0;
@@ -247,7 +244,7 @@
 .logo_place_footer {
   width: 228px;
   height: 32px;
-  background-image: url(/images/logo_place_footer.svg);
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer {
@@ -284,8 +281,8 @@
 .footer__column-links {
   list-style: none;
   padding: 0;
-  margin-top: 20;
   margin-bottom: 16px;
+  margin-top: 20px;
 }
 
 .footer__column-heading {
